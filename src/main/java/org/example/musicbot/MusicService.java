@@ -146,7 +146,7 @@ public class MusicService {
         String videoUrl = "https://www.ssyoutube.com/watch?v=" + musicQuery;
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://youtube-mp3-downloader2.p.rapidapi.com/ytmp3/ytmp3/?url="+videoUrl))
-                .header("x-rapidapi-key", "0e0e94279dmsh6708a24f3ab08a5p1736d8jsn8a71c057604e")
+                .header("x-rapidapi-key", "")
                 .header("x-rapidapi-host", "youtube-mp3-downloader2.p.rapidapi.com")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
